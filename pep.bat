@@ -1,2 +1,2 @@
 cls
-node "mainFile.js" "./credentials.json" "./celebrities.js"
+node "followCelebs.js" "./credentials.json" "./celebrities.js"
