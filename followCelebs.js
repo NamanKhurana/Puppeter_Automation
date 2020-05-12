@@ -8,7 +8,7 @@ let pFile = process.argv[3];
     let celebData = await fs.promises.readFile(pFile);
     let { url, pwd, user } = JSON.parse(data);
     let celebList = JSON.parse(celebData);
-    console.log(celebList);
+    // console.log(celebList);
     let browser = await puppeteer.launch({
         headless: false,
         defaultViewport: null,

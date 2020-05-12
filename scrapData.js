@@ -24,7 +24,7 @@ function parseHtml(html) {
     // console.log(instaIds)
 
     let JsonArray = []
-    for (let i = instaIds.length - 1; i >= 0; i--) {
+    for (let i = instaIds.length - 1; i >= instaIds.length - 6; i--) {
         JsonArray.push({ "idx": instaIds.length - 1 - i, "name": instaIds[i] })
     }
     // console.log(JSON.stringify(JsonArray));
